@@ -1,0 +1,37 @@
+h1{
+    background-image: url(pic.png);
+    background-position: center;
+    font-size: 120px;
+    border-radius: 30px;
+}
+.captch{
+    display: flex;
+    justify-content: center;
+}
+.input-value{
+    display: flex;
+    justify-content: center;
+}
+.input-value input[type="text"]{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+}
+.input-value input[type="text"]:hover{
+    box-shadow: 10px 10px 20px rgb(56, 0, 0) ;
+}
+.input-value a{
+    position: absolute;
+    margin-left: 257px;
+    margin-top: 1.5px;
+    background-color: red;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
