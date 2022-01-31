@@ -48,3 +48,8 @@ h2 a{
     color: red;
 
 }
+.header{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
