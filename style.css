@@ -3,6 +3,8 @@ h1{
     background-position: center;
     font-size: 120px;
     border-radius: 30px;
+    text-decoration: line-through;
+    border: 2px solid black;
 }
 .captch{
     display: flex;
