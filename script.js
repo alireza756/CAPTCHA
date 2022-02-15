@@ -2,9 +2,9 @@ var captchaValue = document.getElementById("captcha").innerHTML=Math.floor(Math.
 function rand(){
 var inputValue = document.getElementById("value").value;
 if(captchaValue == inputValue){
-    alert("خوش آمدید")
+    alert("wellcome")
 }
 else{
-    alert("دوباره تلاش کنید")
+    alert("please try again")
 }
 }
