@@ -2,7 +2,7 @@ var captchaValue = document.getElementById("captcha").innerHTML=Math.floor(Math.
 function rand(){
 var inputValue = document.getElementById("value").value;
 if(captchaValue == inputValue){
-    alert("wellcome")
+    alert("welcome")
 }
 else{
     alert("please try again")
